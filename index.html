@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato</title>
+    <style>
+        .titulo{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        position: absolute;     
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        }
+
+        .img_gato{
+        height: 60%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 40%;
+        border-radius: 4%;
+        transition: 1s;
+        }
+
+        .img_gato:hover{
+            scale: 1.05;
+            transition: 1s;
+        }
+
+        .descripción{
+             color: white;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            background-color: rgb(61, 22, 22);    
+        }
+
+        body{
+             transition: 2s;
+            background-color: rgb(27, 14, 14);    
+        }
+        body:hover{
+             transition: 1s;    
+            background-color: rgb(2, 6, 39);    
+        }
+
+    </style>
+</head>
+<body>
+    <h2 class="titulo">Cuidalos con amor</h2>
+    <h1 class="descripción">Gatos bonitos</h1>
+    <img class="img_gato"src="Imagenes/gato.jpg" alt="gato">    
+</body>
+</html>
